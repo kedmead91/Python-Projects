@@ -14,21 +14,18 @@ def favourite_meal():
         # asks first question (starter)
         print("Okay thanks, First Question: ")
         starter = input("What is your favourite starter? ")
-    # asks second question (main course)
+        # asks second question (main course)
         main_course = input("What is your favourite main course? ")
-    # asks third question (dessert)
+        # asks third question (dessert)
         dessert = input("What is your favourite dessert? ")
-    # asks fourth question (alcoholic drink)
-        drink = input("Finally what is your favourite alcoholic drink? ")
-    # prints the users favourite three course meal
-        print("Your favourite three course meal consists of: ")
-        print("A starter of " + starter + "," + " a main course of " + main_course + " and " + dessert + " for dessert")
-    # then prints the users favourite alcoholic drink
+        # asks user what their favourite drink is
+        drink = input("What is your favourite drink? ")
+        # then prints out the users favourite meal and drink
+        print("Thank you " + user + " Your favourite three course meal consists of: ")
+        print("A starter of " + starter + "," + " a main course of " + main_course + ", " + dessert + " for dessert")
+        # then prints the users favourite drink
         print(" and don't forget your favourite drink of " + drink + "!")
 
 
-
 # calling function
-
-
 favourite_meal()
